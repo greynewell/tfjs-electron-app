@@ -1,0 +1,22 @@
+{
+  "name": "tfjs-electron-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "4.20.0",
+    "@tensorflow/tfjs-node": "4.20.0",
+    "electron": "31.0.2",
+    "electron-builder": "24.13.3"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.5.2"
+  }
+}
