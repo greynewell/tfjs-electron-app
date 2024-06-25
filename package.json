@@ -1,22 +1,23 @@
 {
   "name": "tfjs-electron-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && electron .",
+    "build": "tsc && electron-builder --dir",
+    "dist": "tsc && electron-builder"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@tensorflow/tfjs": "4.20.0",
-    "@tensorflow/tfjs-node": "4.20.0",
-    "electron": "31.0.2",
-    "electron-builder": "24.13.3"
-  },
-  "devDependencies": {
-    "ts-node": "10.9.2",
-    "typescript": "5.5.2"
+  "build": {
+    "appId": "com.example.tfjs-electron-app",
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "package.json",
+      "index.html"
+    ],
+    "directories": {
+      "output": "build"
+    },
+    "asar": true
   }
 }
