@@ -1,13 +1,14 @@
 {
-    "compilerOptions": {
-      "target": "ES2015",
-      "module": "commonjs",
-      "strict": true,
-      "esModuleInterop": true,
-      "outDir": "./dist",
-      "rootDir": "."
-    },
-    "include": [
-      "*.ts"
-    ]
-  }
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "skipLibCheck": true
+  },
+  "include": [
+    "*.ts"
+  ]
+}

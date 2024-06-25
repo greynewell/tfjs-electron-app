@@ -3,7 +3,7 @@ import * as path from 'path';
 import * as tf from '@tensorflow/tfjs-node';
 
 let mainWindow: BrowserWindow | null;
-let model: tf.LayersModel;
+let model: tf.Sequential;
 
 async function createWindow() {
   mainWindow = new BrowserWindow({
