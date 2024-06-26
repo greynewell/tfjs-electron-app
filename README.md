@@ -1,6 +1,13 @@
 # tfjs-electron-app
 This is a minimal example using `TensorFlow.js` to train and run a model locally in a Desktop environment created with `Electron.js`.
 
+## How to use this repo
+Clone this repo locally, `cd` into it, then:
+1. Install dependencies. ```npm i```
+2. Build the application. ```npm run build```
+3. Test the app locally. ```npm run start```
+4. Build for distribution. ```npm run dist```
+
 ## Why this approach?
 
 Why have I decided to experiment with this oddball tech stack? Let’s unpack.
