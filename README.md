@@ -33,4 +33,4 @@ Finally, JavaScript was selected based on the observation that many JavaScript d
 In the end, I disregarded all of the above reasoning to experiment with building a desktop app using local models for fun and document the results to share with you.
 
 ## Read the Full Post
-Check out the full post on my blog: [https://greynewell.com/train-and-run-local-models-in-cross-platform-desktop-apps-with-tensorflowjs](https://greynewell.com/train-and-run-local-models-in-cross-platform-desktop-apps-with-tensorflowjs)
+Check out the full post in my lab: https://lab.greynewell.com/Train-Neural-Networks-Locally-in-Desktop-Apps-with-TensorFlow-js-1e97e3cf88c08177b340ebdb325a92e5
